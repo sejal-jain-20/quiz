@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.title h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 13rem;
+    font-size: 55px;
+    
+}
+.sbtn{
+    width: 10rem;
+    height: 3.5rem;
+    background-color: #0d8c81;
+    border-radius: 4rem;
+    cursor: pointer;
+    border: #0d8c81;
+    color: #fff;
+    font-size: 25px;
+}
+.sbtn:hover{
+    background-color: #59f594;
+    color:black;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 13rem;
+   
+}
+

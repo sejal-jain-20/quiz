@@ -1,0 +1,8 @@
+.message{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 7rem;
+    font-size: 30px;
+}

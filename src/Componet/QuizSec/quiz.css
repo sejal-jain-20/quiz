@@ -1,0 +1,107 @@
+.Footer{
+  
+    color: aliceblue;
+    position: absolute;
+    top:34.8rem;
+    width: 100%;
+    
+
+}
+.Tscr{
+    position: absolute;
+}
+.btns{
+    
+    float: right;
+}
+.Content{
+    flex-direction: column;
+    position: absolute;
+    top:18rem;
+    width:100%;
+    height: auto;
+
+}
+.header-title{
+   
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+   
+    
+}
+.correct{
+    background-color: green;
+    color: aliceblue;
+}
+.button{
+    font-size: 18px;
+    height: auto;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: grey;
+    width: 10rem;
+
+}
+
+.currscr {
+    font-size: 18px;
+    position: relative;
+    right: 2rem;
+    bottom: 1.9rem;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    padding: 6px;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 2px ;
+}
+.ShowQue{
+    position: absolute;
+    top: 5rem;
+    margin: 20px;
+    padding: 5px 2px;
+    
+}
+.que-count{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* position: absolute; */
+    top: 5rem;
+    margin: 20px;
+    padding: 5px 2px;
+   
+}
+.que-count span{
+    font-size: 28px;
+    font-weight: 600;
+}
+.Tscr button{
+    font-size: 15px;
+    height: 4rem;
+    width: 6.5rem;
+    background-color: rgb(150, 57, 53);
+    color: aliceblue;
+    border: red;
+    margin: 0 10px 5px 21px;
+    cursor: pointer;
+    
+
+}
+.Tscr button:hover{
+    background-color: darkred;
+    color: #fff;
+}
+.btns button{ font-size: 15px;
+    height: 4rem;
+    width: 6.5rem;
+    margin: 3px 10px 5px 21px;
+    cursor: pointer;
+
+}
+body{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
