@@ -6,7 +6,7 @@
   top: 7rem;
   font-size: 30px;
 }
-.btn {
+.btn1 {
   width: 10rem;
   height: 3.5rem;
   background-color: #0d8c81;
@@ -16,7 +16,7 @@
   color: #fff;
   font-size: 25px;
 }
-.btn:hover {
+.btn1:hover {
   background-color: #59f594;
   color: black;
 }
