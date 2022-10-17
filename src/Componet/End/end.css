@@ -1,8 +1,22 @@
-.message{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 7rem;
-    font-size: 30px;
+.message {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 7rem;
+  font-size: 30px;
+}
+.btn {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: #0d8c81;
+  border-radius: 4rem;
+  cursor: pointer;
+  border: #0d8c81;
+  color: #fff;
+  font-size: 25px;
+}
+.btn:hover {
+  background-color: #59f594;
+  color: black;
 }

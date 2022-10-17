@@ -10,7 +10,7 @@ const End = (props) => {
         <h2>Congratulations You have completed the assessment.</h2>
         <h3 >Total Score :{props.score}/20</h3>
         <h3 >your correct Ques :{props.correctAns} out of {Ques.length}</h3>
-        <button onClick={props.handleplayAgain}>Play Again</button>
+        <button className='btn' onClick={props.handleplayAgain}>Play Again</button>
     </div>
     
     

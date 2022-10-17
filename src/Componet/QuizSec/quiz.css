@@ -93,7 +93,8 @@
     background-color: darkred;
     color: #fff;
 }
-.btns button{ font-size: 15px;
+.btns button{ 
+    font-size: 15px;
     height: 4rem;
     width: 6.5rem;
     margin: 3px 10px 5px 21px;
